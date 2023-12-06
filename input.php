@@ -11,12 +11,12 @@
         <h1>Faktur Penjualan</h1>
         <tr>
             <td><label for="np">Nama Pelanggan</label></td>
-            <td>:</td>
+            <td align="center">:</td>
             <td><input type="text" name="np"></td>
         </tr>
         <tr>
             <td><label for="jps">Jenis Pesanan</label></td>
-            <td>:</td>
+            <td align="center">:</td>
             <td>
                 <select name="jps">
                     <option value="Caramel Latte">Caramel Latte</option>
@@ -29,7 +29,7 @@
         </tr>
         <tr>   
             <td><label for="tp">Tipe Pesanan</label></td>
-            <td>:</td>
+            <td align="center">:</td>
             <td>
                 <input type="radio" name="tp" value="Panas">Panas
                 <input type="radio" name="tp" value="Dingin">Dingin
@@ -37,12 +37,12 @@
         </tr>
         <tr>
             <td><label for="jp">Jumlah Pesanan</label></td>
-            <td>:</td>
+            <td align="center">:</td>
             <td><input type="number" name="jp"></td>
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit" value="Proses"></td>
+            <td><input type="submit" value="Proses">&nbsp<input type="reset" value="Batal"></td>
             <td></td>
         </tr>
     </table>
